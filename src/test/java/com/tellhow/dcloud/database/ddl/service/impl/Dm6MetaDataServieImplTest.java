@@ -50,7 +50,7 @@ class Dm6MetaDataServieImplTest {
     static String schemaPattern = "SG_DATACENTER";
 
     //static String tableNamePattern = "SG_SYS_POINT_B";
-    static String tableNamePattern = "SG_AUT_CRAC_B";
+    static String tableNamePattern = "SG_SYS_MODCHK_RULES";
 
 
     static String[] types = null;

@@ -55,6 +55,8 @@ public class Column {
             return "(" + decimalDigits + ")";
         } else if("MONEY".equalsIgnoreCase(type)){
             return "(19,4)";
+        } else if("CHAR".equalsIgnoreCase(type)) {
+            return "(" + size + ")";
         }
         return "";
     }
